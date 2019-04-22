@@ -195,11 +195,20 @@
                     <div class="header__logo-text">Download Server</div>
                 </nuxt-link>
 
+                <div class="header__controls button-group u-hidden-medium-down">
+                    <a class="button button--main" href="https://www.minter.network" target="_blank">Minter Main Page</a>
+                    <a class="button button--main" href="https://github.com/MinterTeam/minter-go-node/releases" target="_blank" rel="noopener">Github Releases</a>
+                </div>
             </div>
         </header>
 
 
         <main class="main-inner main-inner--snapshot u-container u-container--small">
+            <div class="header__controls button-group u-hidden-medium-up">
+                <a class="button button--main" href="https://www.minter.network" target="_blank">Minter Main Page</a>
+                <a class="button button--main" href="https://github.com/MinterTeam/minter-go-node/releases" target="_blank" rel="noopener">Github Releases</a>
+            </div>
+
             <div class="dashboard__table-header">
                 <h1 class="dashboard__table-title dashboard__title">Download snapshot</h1>
                 <label class="dashboard__table-search form-field form-field--invert form-field--with-icon">

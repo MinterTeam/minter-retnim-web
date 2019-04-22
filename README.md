@@ -1,6 +1,6 @@
-# Minter Early Access Website
+# Minter snapshots download website
 
-This is the repository containing the code for the official Minter Early Access website [minternetwork.com](https://minternetwork.com)
+This is the repository containing the code for the official [retnim.com](https://retnim.com)
 
 
 ## Deployment script
