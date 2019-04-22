@@ -13,7 +13,6 @@
     </target>
     <target name="validate.variables" description="Проверяем все ли переменные определены">
         <fail unless="env.app_env" message="app_env environment variable is not set"/>
-        <fail unless="env.app_foundation_url" message="app_foundation_url environment variable is not set"/>
-        <fail unless="env.app_bonus_url" message="app_bonus_url environment variable is not set"/>
+        <fail unless="env.app_snapshot_api_url" message="app_snapshot_api_url environment variable is not set"/>
     </target>
 </project>
